@@ -176,3 +176,30 @@ footer {
     gap: 0.5rem;
   }
 }
+.social-links {
+  list-style: none;
+  padding: 0;
+}
+
+.social-links li {
+  margin: 0.5rem 0;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #ffcc00;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
