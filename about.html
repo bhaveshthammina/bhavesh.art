@@ -1,40 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Learning | Bhavesh</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Game Developer Portfolio</title>
+    <style>
+        body {
+            background-color: #121212; /* Dark black background */
+            color: #e0e0e0; /* Light gray text */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #1e1e1e; /* Darker gray */
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #333;
+        }
+        header h1 {
+            margin: 0;
+            color: #ffffff; /* White for contrast */
+        }
+        nav {
+            background-color: #1e1e1e;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #b0b0b0; /* Medium gray */
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ffffff;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #1e1e1e;
+        }
+        section h2 {
+            color: #ffffff;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .skill {
+            background-color: #2a2a2a; /* Medium gray */
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+        footer {
+            background-color: #1e1e1e;
+            padding: 10px;
+            text-align: center;
+            color: #b0b0b0;
+            border-top: 2px solid #333;
+        }
+        a {
+            color: #b0b0b0;
+        }
+        a:hover {
+            color: #ffffff;
+        }
+    </style>
 </head>
 <body>
-  <nav>
-    <h2 class="logo">Bhavesh</h2>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html" class="active">Learning</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
 
-  <section class="page fade-in">
-    <p> I am glade that i made a choice based on my childhood dream.</p>
-    
-    <img src="maar.jpg" alt="My Learning Journey" width="800">    
-    <h1>About My Learning</h1>
-    <h2> POLYCOUNT</h2>
-    <p>My expertise includes:</p>
-    <ul>
-      <li>Unity & C# programming</li>
-      <li>Mobile game optimization</li>
-      <li>2D/3D level design</li>
-      <li>Firebase & multiplayer integration</li>
-    </ul>
-  </section>
+    <header>
+        <h1>Your Name - Game Developer</h1>
+        <p>Creating immersive worlds and engaging experiences</p>
+    </header>
 
-  <footer>
-    <p>© 2025 Bhavesh. All rights reserved.</p>
-  </footer>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="index.html#projects">Projects</a>
+        <a href="index.html#contact">Contact</a>
+    </nav>
+
+    <section>
+        <h2>About Me</h2>
+        <p>I'm a passionate game developer with over 5 years of experience in crafting interactive and engaging gaming experiences. My expertise lies in Unity, Unreal Engine, and C#, with a focus on action-adventure games that blend rich narratives with stunning visuals.</p>
+        <p>With a background in computer science and a deep love for storytelling, I thrive on turning creative ideas into immersive worlds. My work emphasizes innovative gameplay mechanics, performance optimization, and cross-platform development.</p>
+        <p>When I'm not coding or designing, you can find me exploring new game genres, contributing to open-source projects, or mentoring aspiring developers in the community.</p>
+        
+        <h3>Skills</h3>
+        <div class="skills">
+            <span class="skill">Unity</span>
+            <span class="skill">Unreal Engine</span>
+            <span class="skill">C#</span>
+            <span class="skill">C++</span>
+            <span class="skill">Godot Engine</span>
+            <span class="skill">Game Design</span>
+            <span class="skill">Level Design</span>
+            <span class="skill">Shader Programming</span>
+            <span class="skill">Multiplayer Networking</span>
+            <span class="skill">Procedural Generation</span>
+        </div>
+        
+        <h3>Experience</h3>
+        <p><strong>Lead Game Developer</strong> at Indie Studio (2022–Present)</p>
+        <p>Led a team of 5 developers to create a critically acclaimed indie title, handling everything from concept to release.</p>
+        <p><strong>Junior Game Developer</strong> at GameWorks Inc. (2020–2022)</p>
+        <p>Contributed to level design and scripting for a AAA title, optimizing performance for consoles.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
