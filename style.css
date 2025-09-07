@@ -214,3 +214,19 @@ footer {
   border-radius: 10px;
   object-fit: cover;
 }
+.fancy-img {
+  width: 400px;
+  border-radius: 20px;          /* rounded corners */
+  filter: grayscale(100%);      /* black & white */
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3); /* soft shadow */
+  backdrop-filter: blur(10px);  /* glassy effect */
+  border: 2px solid rgba(255,255,255,0.4); /* semi-transparent border */
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.fancy-img:hover {
+  filter: grayscale(0%);       /* turns back to color on hover */
+  transform: scale(1.05);      /* zoom effect */
+  box-shadow: 0 12px 30px rgba(0,0,0,0.5);
+}
