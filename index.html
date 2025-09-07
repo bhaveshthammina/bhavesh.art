@@ -1,71 +1,133 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
-  <head> 
-    <meta charset="UTF-8"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>Bhavesh Portfolio</title> 
-    <link rel="stylesheet" href="style.css"> 
-    <script src="script.js" defer></script> 
-    <link rel="icon" type="image/png" href="images/maar.jpg">
-  </head> 
-  <body>  
-      <!-- Navbar -->
-  <nav>
-    <h2 class="logo">भावेश</h2>
-    <ul>
-      <li><a href="index.html" class="active">Home</a></li>
-      <li><a href="about.html">Learning</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Dev Portfolio</title>
+    <style>
+        body {
+            background-color: #121212; /* Dark black background */
+            color: #e0e0e0; /* Light gray text */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #1e1e1e; /* Darker gray */
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #333;
+        }
+        header h1 {
+            margin: 0;
+            color: #ffffff; /* White for contrast */
+        }
+        nav {
+            background-color: #1e1e1e;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #b0b0b0; /* Medium gray */
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ffffff;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        #about {
+            background-color: #1e1e1e;
+        }
+        #projects {
+            background-color: #121212;
+        }
+        .project {
+            background-color: #2a2a2a; /* Medium gray */
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+        }
+        .project h3 {
+            color: #ffffff;
+        }
+        #contact {
+            background-color: #1e1e1e;
+            text-align: center;
+        }
+        footer {
+            background-color: #1e1e1e;
+            padding: 10px;
+            text-align: center;
+            color: #b0b0b0;
+            border-top: 2px solid #333;
+        }
+        a {
+            color: #b0b0b0;
+        }
+        a:hover {
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
 
-  <!-- Hero -->
-  <div class="hero fade-in">
-    <div class="hero-content">
-      <h1 class="sanskrit">भावेश</h1>
-      <p>Professional Game Developer | Creative Coder | Designer</p>
-    </div>
-  </div>
+    <header>
+        <h1>Your Name - Game Developer</h1>
+        <p>Creating immersive worlds and engaging experiences</p>
+    </header>
 
-  <!-- Projects preview -->
-  <section class="fade-in">
-    <h2>My Game Projects</h2>
-    <div class="projects-grid">
-      <div class="project-card"
-           data-title="Spider Fuser"
-           data-desc="A fast-paced action game where you control a spider with fusion powers."
-           data-video="">
-        <img src="https://raw.githubusercontent.com/username/repo/main/images/project1.png" alt="Spider Fuser">
-        <h3>Spider Fuser</h3>
-      </div>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-      <div class="project-card"
-           data-title="Ocean Adventure"
-           data-desc="Explore the deep sea with realistic physics and stunning visuals."
-           data-video="https://www.youtube.com/embed/abcd1234">
-        <img src="images/project2.png" alt="Ocean Adventure">
-        <h3>Ocean Adventure</h3>
-      </div>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a passionate game developer with experience in Unity, Unreal Engine, and C#. I specialize in creating action-adventure games with rich narratives and stunning visuals. With a background in computer science and a love for storytelling, I bring ideas to life through interactive media.</p>
+    </section>
 
-      <div class="project-card"
-           data-title="Shark Hunter"
-           data-desc="An underwater survival game where players battle against sharks."
-           data-video="">
-        <img src="images/project3.png" alt="Shark Hunter">
-        <h3>Shark Hunter</h3>
-      </div>
-    </div>
-  </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        
+        <div class="project">
+            <h3>Project 1: Epic Quest</h3>
+            <p>A fantasy RPG where players embark on a journey to save the kingdom. Built with Unity, featuring procedurally generated worlds and multiplayer elements.</p>
+            <a href="https://example.com/project1" target="_blank">View Demo</a> | <a href="https://github.com/yourusername/project1" target="_blank">GitHub Repo</a>
+        </div>
+        
+        <div class="project">
+            <h3>Project 2: Space Shooter</h3>
+            <p>An intense arcade-style shooter set in outer space. Developed using Unreal Engine, with high-fidelity graphics and dynamic sound design.</p>
+            <a href="https://example.com/project2" target="_blank">View Demo</a> | <a href="https://github.com/yourusername/project2" target="_blank">GitHub Repo</a>
+        </div>
+        
+        <div class="project">
+            <h3>Project 3: Puzzle Adventure</h3>
+            <p>A mind-bending puzzle game that challenges logic and creativity. Created with Godot Engine, emphasizing accessibility and innovative mechanics.</p>
+            <a href="https://example.com/project3" target="_blank">View Demo</a> | <a href="https://github.com/yourusername/project3" target="_blank">GitHub Repo</a>
+        </div>
+    </section>
 
-  <!-- Modal -->
-  <div class="project-modal">
-    <div class="project-modal-content"></div>
-    <span class="modal-close">&times;</span>
-  </div>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: your.email@example.com</p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/yourusername" target="_blank">linkedin.com/in/yourusername</a></p>
+        <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+        <p>Itch.io: <a href="https://yourusername.itch.io" target="_blank">yourusername.itch.io</a></p>
+    </section>
 
-  <footer>
-    <p>© 2025 भावेश. All rights reserved.</p>
-  </footer>
+    <footer>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+
 </body>
-</html>
+</html>    
