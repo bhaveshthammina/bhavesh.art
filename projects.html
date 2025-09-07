@@ -1,60 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projects | Bhavesh</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Game Developer Portfolio</title>
+    <style>
+        body {
+            background-color: #121212; /* Dark black background */
+            color: #e0e0e0; /* Light gray text */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #1e1e1e; /* Darker gray */
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #333;
+        }
+        header h1 {
+            margin: 0;
+            color: #ffffff; /* White for contrast */
+        }
+        nav {
+            background-color: #1e1e1e;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #b0b0b0; /* Medium gray */
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ffffff;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #121212;
+        }
+        section h2 {
+            color: #ffffff;
+        }
+        .project {
+            background-color: #2a2a2a; /* Medium gray */
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+        }
+        .project h3 {
+            color: #ffffff;
+            margin-top: 0;
+        }
+        .project p {
+            margin: 10px 0;
+        }
+        .project a {
+            color: #b0b0b0;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+        .project a:hover {
+            color: #ffffff;
+        }
+        footer {
+            background-color: #1e1e1e;
+            padding: 10px;
+            text-align: center;
+            color: #b0b0b0;
+            border-top: 2px solid #333;
+        }
+    </style>
 </head>
 <body>
-  <nav>
-    <h2 class="logo">Bhavesh</h2>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="projects.html" class="active">Projects</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
 
-  <section class="page fade-in">
-    <h1>My Projects</h1>
+    <header>
+        <h1>Your Name - Game Developer</h1>
+        <p>Creating immersive worlds and engaging experiences</p>
+    </header>
 
-    <div class="projects-grid">
-      <div class="project-card"
-           data-title="Spider Fuser"
-           data-desc="A fast-paced action game where you control a spider with fusion powers."
-           data-video="">
-        <img src="images/spiderfuser.png" alt="Spider Fuser">
-        <h3>Spider Fuser</h3>
-      </div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="index.html#contact">Contact</a>
+    </nav>
 
-      <div class="project-card"
-           data-title="Ocean Adventure"
-           data-desc="Explore the deep sea with realistic physics and stunning visuals."
-           data-video="https://www.youtube.com/embed/abcd1234">
-        <img src="images/project2.png" alt="Ocean Adventure">
-        <h3>Ocean Adventure</h3>
-      </div>
+    <section>
+        <h2>My Projects</h2>
+        
+        <div class="project">
+            <h3>Epic Quest</h3>
+            <p>A fantasy RPG where players embark on a journey to save the kingdom. Built with Unity, featuring procedurally generated worlds and multiplayer elements. Key contributions included designing core mechanics and optimizing performance for low-end devices.</p>
+            <p><strong>Technologies:</strong> Unity, C#, Blender, Photon Networking</p>
+            <a href="https://example.com/project1" target="_blank">View Demo</a> | 
+            <a href="https://github.com/yourusername/project1" target="_blank">GitHub Repo</a>
+        </div>
+        
+        <div class="project">
+            <h3>Space Shooter</h3>
+            <p>An intense arcade-style shooter set in outer space. Developed using Unreal Engine, with high-fidelity graphics and dynamic sound design. Focused on creating responsive controls and immersive particle effects.</p>
+            <p><strong>Technologies:</strong> Unreal Engine, C++, Blueprints, FMOD</p>
+            <a href="https://example.com/project2" target="_blank">View Demo</a> | 
+            <a href="https://github.com/yourusername/project2" target="_blank">GitHub Repo</a>
+        </div>
+        
+        <div class="project">
+            <h3>Puzzle Adventure</h3>
+            <p>A mind-bending puzzle game that challenges logic and creativity. Created with Godot Engine, emphasizing accessibility and innovative mechanics. Implemented custom shaders and cross-platform support.</p>
+            <p><strong>Technologies:</strong> Godot Engine, GDScript, GLSL</p>
+            <a href="https://example.com/project3" target="_blank">View Demo</a> | 
+            <a href="https://github.com/yourusername/project3" target="_blank">GitHub Repo</a>
+        </div>
+    </section>
 
-      <div class="project-card"
-           data-title="Shark Hunter"
-           data-desc="An underwater survival game where players battle against sharks."
-           data-video="">
-        <img src="images/project3.png" alt="Shark Hunter">
-        <h3>Shark Hunter</h3>
-      </div>
-    </div>
-  </section>
+    <footer>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
 
-  <div class="project-modal">
-    <div class="project-modal-content"></div>
-    <span class="modal-close">&times;</span>
-  </div>
-
-  <footer>
-    <p>© 2025 Bhavesh. All rights reserved.</p>
-  </footer>
 </body>
 </html>
